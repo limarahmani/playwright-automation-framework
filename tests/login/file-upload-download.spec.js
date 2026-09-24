@@ -24,7 +24,7 @@ test("@upload", async ({ page }) => {
     await page.setInputFiles("//input[@id='file-upload']",filePath);
 
     page.click("//input[@id='file-submit']");
-    expect(page.getByText("File Uploaded")).toBeVisible();
+    await expect(page.getByText("File Uploaded!")).toBeVisible();
 
 
 });

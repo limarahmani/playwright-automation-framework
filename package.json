@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx playwright test",
     "test:specific": "npx playwright test --grep locator-object-method.spec.js",
-    "test:tag": "npx playwright test --grep @download",
+    "test:tag": "npx playwright test --grep @Bypass",
     "report": "npx playwright show-report"
   },
   "keywords": [],

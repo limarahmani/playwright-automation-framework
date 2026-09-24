@@ -3,7 +3,7 @@
 import {test} from '@playwright/test';
 
 
-test("Open Google get title", async ({ page }) => {
+test("Open Google get @title", async ({ page }) => {
   await page.goto("https://www.google.com");
 
   let title = await page.title();
